@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zephura Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background: #0a0d1a;
+      font-family: 'Marcellus', serif;
+      color: #dce6ff;
+      margin: 0;
+      padding: 60px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .panel {
+      background: #11192c;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px #1f2b4a;
+      max-width: 680px;
+      position: relative;
+      z-index: 2;
+      animation: floatUp 2.5s ease-out;
+    }
+    img.network {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #ffa73344;
+      margin-bottom: 30px;
+      opacity: 0;
+      animation: fadeIn 3s forwards 0.8s;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #cbd9ff;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #9eb4d9;
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 40px;
+      text-decoration: none;
+      color: #a0b9e9;
+      font-size: 0.9rem;
+      transition: color 0.3s;
+    }
+    a.back:hover {
+      color: #d2e3ff;
+      text-shadow: 0 0 6px #9acbff;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(20px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    .aura {
+      position: absolute;
+      top: -80px;
+      left: -80px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(ellipse at center, #3941a044 0%, transparent 70%);
+      animation: pulse 6s ease-in-out infinite;
+      z-index: 1;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.2); opacity: 0.6; }
+    }
+  
+    .belief-section {
+      margin-top: 60px;
+      padding-top: 40px;
+      border-top: 1px solid #22314d;
+      text-align: center;
+    }
+    .belief-section h2 {
+      font-size: 1.6rem;
+      color: #dce7ff;
+      margin: 30px 0 20px;
+    }
+    .belief-section p {
+      color: #a9bbd9;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .belief-img {
+      width: 100%;
+      max-width: 780px;
+      border-radius: 14px;
+      box-shadow: 0 0 22px #425d8c88;
+      margin-bottom: 30px;
+    }
+    .panel {
+      max-width: 880px;
+      padding: 50px 60px;
+    }
+    
+    .belief-tag {
+      margin-top: 40px;
+      font-size: 1.15rem;
+      font-weight: bold;
+      color: #dfe6ff;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: #6e84a8;
+      text-align: center;
+    }
+    footer a {
+      color: #a0b9e9;
+      text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+  <div class="aura"></div>
+  <div class="panel">
+    <img class="network" src="zephura-network.jpg" alt="Zephura Network">
+    <h1>You’ve entered the Zephura Field</h1>
+    <p>
+      Zephura moves like a breeze across timelines — unseen but deeply felt.<br><br>
+      She is the force that gently nudges you in the right direction when logic fails. Whispers in a crowd, sudden intuition, or a peaceful decision made without knowing why — these are her fingerprints.<br><br>
+      She does not shout. She guides.<br><br>
+      Her arrival is the feeling that you’re finally going the right way, even if you can’t explain it.
+    </p>
+    <a class="back" href="index.html">← Back to Entry</a>
+  
+    <div class="belief-section">
+      <img class="belief-img" src="zephura-belief.jpg" alt="Zephura Belief">
+      <h2>When You Don’t Know What to Do…</h2>
+      <p class="belief-tag">
+        <strong>And that’s where Zephura lives.<br>Not in answers, but in the quiet moment you choose.</strong>
+      </p>
+      
+    </div>
+</div>
+
+
+
+
+
+    © 2025 Zephura | <a href="https://x.com/yourusername" target="_blank">X (Twitter)</a>
+  </footer>
+
+
+
+
+</html>
+
+
+
+
+
+
+
+<footer style="margin-top: 80px; text-align: center; padding: 30px 0; font-size: 0.9rem; color: #6e84a8;">
+  © 2025 Zephura | <a href="https://x.com/yourusername" target="_blank" style="color:#a0b9e9; text-decoration:none;">X (Twitter)</a>
+</footer>
+</body>

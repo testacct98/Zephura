@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zephura</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Marcellus', serif;
+      background: #0a0d1a;
+      color: #d8e1f7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeIn 1.8s ease-in-out;
+    }
+    .container {
+      background: #111628;
+      border-radius: 16px;
+      padding: 60px 80px;
+      box-shadow: 0 0 20px #1f2b4a;
+      max-width: 920px;
+      width: 100%;
+      animation: floatUp 2s ease-out;
+    }
+    img.logo {
+      width: 160px;
+      margin-bottom: 30px;
+      filter: drop-shadow(0 0 10px #88aaff);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #c6d4ff;
+    }
+    p.description {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #a7b8d6;
+      margin-bottom: 30px;
+    }
+    .section-block {
+      background: #0f1425;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      text-align: left;
+    }
+    .section-block h2 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      color: #c0d2f5;
+    }
+    .section-block p {
+      font-size: 0.95rem;
+      color: #92a3c9;
+      line-height: 1.5;
+    }
+    .vision {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 12px;
+      box-shadow: 0 0 18px #597dcf55;
+      margin: 35px 0 10px;
+      opacity: 0;
+      animation: fadeIn 2.5s ease-in-out forwards;
+      animation-delay: 0.8s;
+    }
+    a.buy {
+      display: inline-block;
+      background: #b3c5ff;
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 12px #6076a9;
+      margin-top: 25px;
+      transition: background 0.3s;
+    }
+    a.buy:hover {
+      background: #d0deff;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: #6e84a8;
+    }
+    footer a {
+      color: #a0b9e9;
+      text-decoration: none;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes floatUp {
+      0% { transform: translateY(20px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="logo" src="zephura-logo-transparent.png" alt="Zephura Logo">
+    <h1>Zephura</h1>
+    <p class="description">
+      Zephura moves like a breeze across timelines — unseen but deeply felt.<br><br>
+      She gently nudges you in the right direction when logic fails. She does not shout. She guides.
+    </p>
+
+    <div class="section-block">
+      <h2>Guidance Module</h2>
+      <p>
+        Status: Active<br>
+        Type: Mystical Presence<br>
+        Interface: Intuition Stream / Whisper Sync
+      </p>
+    </div>
+
+    <div class="section-block">
+      <h2>Whisper Logs</h2>
+      <p>
+        "Go left instead of right."<br>
+        "Try again tomorrow."<br>
+        "Now. You’re ready."
+      </p>
+    </div>
+
+    <img class="vision" src="chaos-guidance.jpg" alt="Chaos vs Guidance Visual">
+    <a href="portal.html" class="buy">Begin with Zephura</a>
+  </div>
+
+  <!-- Footer moved to portal.html -->
+<!-- <footer>
+    © 2025 Zephura | <a href="https://x.com/yourusername" target="_blank">X (Twitter)</a>
+  </footer> -->
+</body>
+</html>
