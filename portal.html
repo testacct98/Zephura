@@ -13,18 +13,19 @@
       margin: 0;
       padding: 60px 20px;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100vh;
       text-align: center;
       animation: fadeIn 2s ease-in-out;
     }
     .panel {
       background: #11192c;
-      padding: 40px 30px;
+      padding: 50px 60px;
       border-radius: 16px;
       box-shadow: 0 0 20px #1f2b4a;
-      max-width: 680px;
+      max-width: 880px;
       position: relative;
       z-index: 2;
       animation: floatUp 2.5s ease-out;
@@ -86,7 +87,7 @@
       0%, 100% { transform: scale(1); opacity: 0.4; }
       50% { transform: scale(1.2); opacity: 0.6; }
     }
-  
+
     .belief-section {
       margin-top: 60px;
       padding-top: 40px;
@@ -112,19 +113,16 @@
       box-shadow: 0 0 22px #425d8c88;
       margin-bottom: 30px;
     }
-    .panel {
-      max-width: 880px;
-      padding: 50px 60px;
-    }
-    
+
     .belief-tag {
       margin-top: 40px;
       font-size: 1.15rem;
       font-weight: bold;
       color: #dfe6ff;
     }
+
     footer {
-      margin-top: 60px;
+      margin-top: 80px;
       font-size: 0.85rem;
       color: #6e84a8;
       text-align: center;
@@ -133,10 +131,11 @@
       color: #a0b9e9;
       text-decoration: none;
     }
-    </style>
+  </style>
 </head>
 <body>
   <div class="aura"></div>
+
   <div class="panel">
     <img class="network" src="zephura-network.jpg" alt="Zephura Network">
     <h1>You’ve entered the Zephura Field</h1>
@@ -147,31 +146,18 @@
       Her arrival is the feeling that you’re finally going the right way, even if you can’t explain it.
     </p>
     <a class="back" href="index.html">← Back to Entry</a>
-  
+
     <div class="belief-section">
       <img class="belief-img" src="zephura-belief.jpg" alt="Zephura Belief">
       <h2>When You Don’t Know What to Do…</h2>
       <p class="belief-tag">
         <strong>And that’s where Zephura lives.<br>Not in answers, but in the quiet moment you choose.</strong>
       </p>
-      
     </div>
-</div>
+  </div>
 
-
-
-
-
-
-</html>
-
-
-
-
-
-
-
-<footer style="margin-top: 80px; text-align: center; padding: 30px 0; font-size: 0.9rem; color: #6e84a8;">
-  © 2025 Zephura | <a href="https://x.com/yourusername" target="_blank" style="color:#a0b9e9; text-decoration:none;">X (Twitter)</a>
-</footer>
+  <footer>
+    © 2025 Zephura | <a href="https://x.com/yourusername" target="_blank">X (Twitter)</a>
+  </footer>
 </body>
+</html>
